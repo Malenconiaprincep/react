@@ -13,6 +13,8 @@ import {
   getNodeFromInstance,
 } from './ReactDOMComponentTree';
 
+// 事件
+
 import LegacyBeforeInputEventPlugin from '../events/plugins/LegacyBeforeInputEventPlugin';
 import LegacyChangeEventPlugin from '../events/plugins/LegacyChangeEventPlugin';
 import LegacyEnterLeaveEventPlugin from '../events/plugins/LegacyEnterLeaveEventPlugin';

@@ -7,11 +7,21 @@
  * @flow
  */
 
+ // 类型
+
 import type {ReactNodeList} from 'shared/ReactTypes';
+
+// 容器类型
 import type {Container} from './ReactDOMHostConfig';
 
+// 检测 react 
+
 import '../shared/checkReact';
+
+// 注入事件
 import './ReactDOMClientInjection';
+
+
 import {
   findDOMNode,
   render,
